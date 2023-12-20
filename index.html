@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rafael Mejia</title>
+    <link rel = "stylesheet" href = "css/stylesheet.css">
+    <link rel="icon" type="image/png" href="images/r_icon.png">
+</head>
+<body>
+    <div id = "top" class = "top_section">
+        <nav>
+            <div class = "header_name">
+                <a style = "text-decoration: none"href="#hello_nav" onclick="centerNav(event, 'hello_nav')">Rafael Mejia</a>
+            </div>
+        </nav>
+        <div class = " links_section">
+            <nav>
+                <div  class="aboutme_link">
+                    <a href="#aboutme_nav" onclick="centerNav(event, 'aboutme_nav')">About Me</a>
+                </div>
+
+                <div  class="projects_link">
+                    <a href="#projects_nav" onclick="centerNav(event, 'projects_nav')">Projects</a>
+                </div>
+
+                <div  class="skills_link">
+                    <a href="#skills_nav" onclick="centerNav(event, 'skills_nav')">Skills</a>
+                </div>
+
+                <div  class="contactme_link">
+                    <a href="#contactme_nav" onclick="centerNav(event, 'contactme_nav')">Contact Me</a>
+                </div>
+            </nav>
+            
+        </div>
+    
+    </div>
+    <section id = "hello_nav">
+        <div class = "hello_container">
+            <p class="nametag_hello">HELLO</p>
+            <p class="nametag_name_is">my name is</p>
+            <div class = "hello_body">
+                RAFAEL MEJIA
+            </div>
+        </div>
+    </section>
+    
+    <section id = "aboutme_nav" >
+        <div class = "aboutme_container">
+            <p class="about">ABOUT</p>
+            <p class="about_me">me</p>  
+            <div class = "aboutme_body">
+                
+                <p class="aboutme_desc">
+                    I'm a Computer Science student at the University of Illinois Chicago. I am <span id="age_script"></span> years old. I have hands-on experience in C, C++, Kotlin, Java, HTML, CSS, and Python, showcased through projects like Weaver and To-Do-App. 
+    As a Teaching Assistant and Co-Public Relations Officer, I'm committed to supporting fellow students and enhancing engagement in the programming community.
+                </p>
+                <script src="js/age.js"></script>
+            </div>
+        </div>
+    </section>
+
+    <section id= "projects_nav" >
+        <div class = "projects_container">
+            <p class = "projects">PROJECTS</p>
+            <div class="projects_body">
+                <ul>
+                    
+                    <li><p class="translator_desc"> <span class="translator_title"><a href="https://github.com/rmeji3/Image-translator">Image Translate Program:</a></span> Developed using Python Open CV and Tesseract. Used to capture a frame from a live video and translate the text detected in the frame.</p></li>
+                    <li><p class="to-do_desc"><span class="to-do_title"><a href="https://github.com/rmeji3/To-Do-App">To-Do-App:</a></span> This Android application, built using Kotlin in Android Studio, provides a simple and user-friendly interface for saving tasks. Users can easily create and manage their to-do lists, set reminders, and mark tasks as complete.</p></li>
+                    <li><p class="weaver_desc"> <span class="weaver_title"><a href="https://github.com/rmeji3/weaver">Weaver:</a></span> Weaver, made in C, is a word game where the player transforms a starting word into a goal word by changing one letter at a time. The game challenges players to find the shortest path to the goal word using valid English words at each step.</p></li>
+                    <li><p class="ttt_desc"><span class="ttt_title "><a href="https://github.com/rmeji3/TicTacToe">Tic Tac Toe:</a></span> This Tic Tac Toe game, developed using Java graphics and buttons, provides a classic and engaging gameplay experience. </p></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id = "skills_nav">
+        <div class = "skills_container">
+            <p class="skills">SKILLS</p>
+            <div class="skills_body">
+                <p class="c">C</p>
+                <p class="cpp">C++</p>
+                <p class="kotlin">Kotlin</p>
+                <p class="java">Java</p>
+                <p class="html">HTML</p>
+                <p class="css">CSS</p>
+                <p class="python">Python</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section id = "contactme_nav">
+        <div class = "contactme_container">
+            <p class="contact">CONTACT</p>
+            <p class="contact_me">me</p>
+            <div class="contactme_body"> <a href = "mailto: Rafaelm120403@gmail.com">Email me here!</a></div>
+            
+        </div>
+    </section>
+
+</body>
+</html>

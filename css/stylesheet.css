@@ -1,0 +1,301 @@
+
+a {
+    color: inherit; /* Set the color to inherit from the parent element */
+    
+}
+a:hover{
+    color: blue;
+}
+
+
+.top_section{
+    align-items: start;
+    background-color: rgb(97, 171, 194);
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px;
+    top: 0;
+    left: 0;
+    height: 10%;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.header_name{
+    float: left;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+body{
+    cursor: url("cursor.png");
+    background-color: rgb(189, 189, 189);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* this is for the top right hyper link section */
+.links_section{
+    margin-top: 50px;
+    float: right;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.aboutme_link{
+    float:left ;
+    margin-right: 10px;
+}
+.projects_link{
+    float:left ;
+    margin-right: 10px;
+}
+.skills_link{
+    float:left ;
+    margin-right: 10px;
+}
+.contactme_link{
+    float:left ;
+    margin-right: 10px;
+}
+/* ========================================== */
+
+
+
+/* this is for the big hello box in the top */
+.nametag_hello{
+    margin-bottom: -40px;
+    font-size: 70px;
+}
+.nametag_name_is{
+    font-size: 30px;
+    margin-bottom: 1px;
+    
+}
+.hello_container{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: Impact; 
+    width: 700px;
+    background-color: rgb(97, 171, 194);
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 150px;
+    text-align: center;
+    height: 450px;
+    margin-bottom: 100px;
+}
+.hello_body{
+    font-family: ink free;
+    text-align: center;
+    width: 700px;
+    font-size: 100px;
+    height: 300px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+/* this is for the about me section */
+.about{
+    margin-bottom: -40px;
+    font-size: 70px;
+}
+.about_me{
+    font-size: 30px;
+    margin-bottom: 1px;
+}
+.aboutme_desc{
+    line-height: 35px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.aboutme_container{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    font-family: impact;
+    width: 700px;
+    background-color: rgb(97, 171, 194);
+    text-align: center;
+    height: 450px;
+    margin: auto;    
+    border-radius: 25px;
+    color: white;
+    margin-bottom: 100px;
+}
+.aboutme_body{
+    
+    font-weight: 600;
+    font-family: ink free;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+/* this is for the projects part */
+.projects{
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+.projects_container{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    font-family: impact;
+    width: 700px;
+    background-color: rgb(97, 171, 194);
+    text-align: center;
+    height: 450px;
+    margin: auto;    
+    border-radius: 25px;
+    color: white;
+    margin-bottom: 100px;
+}
+.projects_body{
+    font-weight: 600;
+    font-family: ink free;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 300px;
+}
+
+.translator_title{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.translator{
+    font-size: 17px;
+    margin-right: 15px;
+}
+
+.to-do_title{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.to-do_desc{
+    font-size: 17px;
+    margin-right: 15px;
+}
+
+.weaver_title{
+
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.weaver_desc{
+    font-size: 17px;
+    margin-right: 15px;
+}
+
+.ttt_title{
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.ttt_desc{
+    font-size: 17px;
+    margin-right: 15px;
+}
+
+/* this is for the skills */
+.skills{
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+.skills_container{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    font-family: impact;
+    width: 700px;
+    background-color: rgb(97, 171, 194);
+    text-align: center;
+    height: 450px;
+    margin: auto;    
+    border-radius: 25px;
+    color: white;
+    margin-bottom: 100px;
+}
+.skills_body{
+    font-weight: 600;
+    font-family: ink free;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 300px;
+    text-align: center;
+    
+}
+.c{
+    margin-bottom: -10px;
+    padding-top: 20px;
+}
+.cpp{
+    margin-bottom: -10px;
+}
+.kotlin{
+    margin-bottom: -10px;
+}
+.java{
+    margin-bottom: -10px;
+}
+.html{
+    margin-bottom: -10px;
+}
+.css{
+    margin-bottom: -10px;
+}
+.python{
+    margin-bottom: -10px;
+}
+
+/* this is for the contact me */
+.contact{
+    margin-bottom: -40px;
+    font-size: 70px;
+}
+.contact_me{
+    font-size: 30px;
+    margin-bottom: 1px;
+}
+.contactme_container{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    font-family: impact;
+    width: 700px;
+    background-color: rgb(97, 171, 194);
+    text-align: center;
+    height: 450px;
+    margin: auto;    
+    border-radius: 25px;
+    color: white;
+    margin-bottom: 100px;
+}
+.contactme_body{
+    font-weight: 600;
+    font-family: ink free;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: default;
+}
